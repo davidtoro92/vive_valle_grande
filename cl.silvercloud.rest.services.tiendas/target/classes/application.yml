@@ -1,0 +1,9 @@
+server:
+  port: 9092
+  
+spring:
+  datasource:
+    url: jdbc:mariadb://192.168.56.102:3306/vive_valle_grande
+    username: root
+    password: root
+    driver-class-name: org.mariadb.jdbc.Driver
