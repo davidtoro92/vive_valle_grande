@@ -15,7 +15,7 @@ public class EmpresasDAO {
 	
 	public EmpresaTO getEmpresaById(long id) {
 		return (EmpresaTO) jdbc.queryForObject(
-				  "Select * from tb_empresas where id = ?"
+				  "Select * from tb_empresa where id = ?"
 				, new Object[] {id}, new BeanPropertyRowMapper<EmpresaTO>(EmpresaTO.class));
 	}
 	

@@ -9,4 +9,4 @@ CREATE OR REPLACE TABLE tb_empresa (
 	descripcion varchar(100) DEFAULT NULL,
 	PRIMARY KEY (id),
   	KEY (id)
-);t
+);
