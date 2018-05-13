@@ -7,3 +7,10 @@ spring:
     username: root
     password: root
     driver-class-name: org.mariadb.jdbc.Driver
+    
+cl:
+  silvercloud:
+    tiendas:
+      sql:
+        add-empresa: insert into tb_empresa (nombre, rubro, pagina_web, tags, descripcion) values(?, ?, ?, ?, ?)
+        select-empresa: select id, nombre, rubro, pagina_web, tags, descripcion from tb_empresa where id = ?

@@ -10,3 +10,4 @@ CREATE OR REPLACE TABLE tb_empresa (
 	PRIMARY KEY (id),
   	KEY (id)
 );
+
